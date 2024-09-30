@@ -18,7 +18,7 @@ function Product() {
     // ));
     // return <div>{displayProduct}</div>;
     return (
-        <table>
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>ID</th>
