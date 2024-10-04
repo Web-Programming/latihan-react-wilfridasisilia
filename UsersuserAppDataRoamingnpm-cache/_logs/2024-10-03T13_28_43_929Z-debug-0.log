@@ -1,0 +1,75 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 5ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\user\pw2if31\latihan-react-wilfridasisilia\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\user\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\user\pw2if31\latihan-react-wilfridasisilia\UsersuserAppDataRoamingnpm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 15ms
+17 timing npm:load:configload Completed in 15ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install
+22 verbose argv "install" "--legacy-peer-deps"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:C:\Users\user\pw2if31\latihan-react-wilfridasisilia\UsersuserAppDataRoamingnpm-cache\_logs\2024-10-03T13_28_43_929Z-
+26 verbose logfile C:\Users\user\pw2if31\latihan-react-wilfridasisilia\UsersuserAppDataRoamingnpm-cache\_logs\2024-10-03T13_28_43_929Z-debug-0.log
+27 timing npm:load:logFile Completed in 15ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 66ms
+31 timing config:load:flatten Completed in 1ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 10ms
+37 timing idealTree:userRequests Completed in 0ms
+38 silly idealTree buildDeps
+39 timing idealTree:#root Completed in 0ms
+40 timing idealTree:buildDeps Completed in 1ms
+41 timing idealTree:fixDepFlags Completed in 0ms
+42 timing idealTree Completed in 11ms
+43 timing reify:loadTrees Completed in 12ms
+44 timing reify:diffTrees Completed in 0ms
+45 silly reify moves {}
+46 timing reify:retireShallow Completed in 1ms
+47 timing reify:createSparse Completed in 0ms
+48 timing reify:loadBundles Completed in 0ms
+49 timing reify:unpack Completed in 0ms
+50 timing reify:unretire Completed in 0ms
+51 timing build:queue Completed in 0ms
+52 timing build:deps Completed in 1ms
+53 timing build Completed in 1ms
+54 timing reify:build Completed in 1ms
+55 timing reify:trash Completed in 0ms
+56 timing reify:save Completed in 5ms
+57 timing reify Completed in 79ms
+58 timing command:install Completed in 84ms
+59 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\user\pw2if31\latihan-react-wilfridasisilia\package.json'
+60 verbose cwd C:\Users\user\pw2if31\latihan-react-wilfridasisilia
+61 verbose Windows_NT 10.0.22631
+62 verbose node v20.11.0
+63 verbose npm  v10.2.4
+64 error code ENOENT
+65 error syscall open
+66 error path C:\Users\user\pw2if31\latihan-react-wilfridasisilia/package.json
+67 error errno -4058
+68 error enoent ENOENT: no such file or directory, open 'C:\Users\user\pw2if31\latihan-react-wilfridasisilia\package.json'
+69 error enoent This is related to npm not being able to find a file.
+69 error enoent
+70 verbose exit -4058
+71 timing npm Completed in 433ms
+72 verbose code -4058
+73 error A complete log of this run can be found in: C:\Users\user\pw2if31\latihan-react-wilfridasisilia\UsersuserAppDataRoamingnpm-cache\_logs\2024-10-03T13_28_43_929Z-debug-0.log
