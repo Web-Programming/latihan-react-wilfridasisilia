@@ -1,19 +1,19 @@
 {
   "posts": [
     {
-      "title": "Hello",
-      "content": "This is a test post",
-      "id": "1"
+      "id": "574e",
+      "title": "Hello 1",
+      "content": "Cek post 1"
     },
     {
+      "id": "e533",
       "title": "Hello 2",
-      "content": "This is a test post 2",
-      "id": "2"
+      "content": "Cek post 2"
     },
     {
-      "id": "5db8",
+      "id": "22f9",
       "title": "Hello 3",
-      "content": "This is Content 3"
+      "content": "Cek post 3"
     }
   ]
 }

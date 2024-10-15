@@ -15,6 +15,15 @@ export default function Posts() {
         fetchRecords();
     }, []);
 
+    const handleDelete = async (id) => {
+        if (window.confirm('Are you sure you want to delete this post?')) {
+            await axios.delete(`http://localhost:3001/posts/${id}`);
+            const filterData = posts.filter((post) => post.id !== id);
+            setPosts(filterData);
+            fetchRecords();
+        }
+    }
+
     return (
         <div className="container mx-auto px-4 py-10">
             <div className="flex justify-between items-center mb-5">
@@ -40,9 +49,9 @@ export default function Posts() {
                                 <td className="py-2 px-4 border-b">{post.title}</td>
                                 <td className="py-2 px-4 border-b">{post.content}</td>
                                 <td className="py-2 px-4 border-b">
-                                    <Link href={`/posts/${post.id}`}><button className="text-blue-500 hover:text-blue-700 mr-2">Read</button></Link>
-                                    <button className="text-yellow-500 hover:text-yellow-700 mr-2">Edit</button>
-                                    <button className="text-red-500 hover:text-red-700">Delete</button>
+                                    <Link href={`/posts/${post.id}?mode='read`}><button className="text-blue-500 hover:text-blue-700 mr-2">Read</button></Link>
+                                    <Link href={`/posts/${post.id}?mode='edit`}><button className="text-yellow-500 hover:text-yellow-700 mr-2">Edit</button></Link>
+                                    <button onClick={() => handleDelete(post.id)} className="text-red-500 hover:text-red-700">Delete</button>
                                 </td>
                             </tr>
                         ))}
